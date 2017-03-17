@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Billionaire Map</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="js/vendor/datamaps.world.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+    <div class="all">
+        <section class="main">
+            <div id="container">
+                <p class="year"></p>
+            </div>
+            <!-- <input id="timeline" type="range" min="1964" max="2015"></input> -->
+            <div id="graph">
+                <div id="chart"></div>
+            </div>
+        </section>
+
+
+        <!-- <input id="timeline" type="range" min="1964" max="2005"></input> -->
+
+        <section class="sidebar">
+            <div class="subject">
+                <h1>
+  Top 1000<br/> Billionaires<br/>
+</h1>
+            </div>
+
+            <div class="menu">
+                <div class="container">
+                    <a id="menu-bars">
+                        <i class="fa fa-sort-desc" id="expand"></i><span>INDUSTRIES</span>
+                    </a>
+                    <ul>
+                        <li><a class="nav__primary--link">Apparel</a></li>
+                        <li><a class="nav__primary--link">Automobile</a></li>
+                        <li><a class="nav__primary--link">Banking</a></li>
+                        <li><a class="nav__primary--link">Beverages</a></li>
+                        <li><a class="nav__primary--link">Construction</a></li>
+                        <li><a class="nav__primary--link">Diversified</a></li>
+                        <li><a class="nav__primary--link">Energy</a></li>
+                        <li><a class="nav__primary--link">Food</a></li>
+                        <li><a class="nav__primary--link">Health</a></li>
+                        <li><a class="nav__primary--link">Investment</a></li>
+                        <li><a class="nav__primary--link" href="IT.html">IT <i class="fa fa-star" id="star"></i></a></li>
+                        <li><a class="nav__primary--link">Media</a></li>
+                        <li><a class="nav__primary--link">Mining</a></li>
+                        <li><a class="nav__primary--link">Real Estate</a></li>
+                        <li><a class="nav__primary--link">Retail</a></li>
+                        <li><a class="nav__primary--link">Sports</a></li>
+                        <li><a class="nav__primary--link">Technology</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="time">
+                <h1 class="year"></h1>
+            </div>
+        </section>
+    </div>
+
+
+
+    <script>
+        // print out the year from the scrubber
+        $(function() {
+
+            $("#timeline").change(function() {
+
+                console.log($(this).val());
+                $(".year").html($(this).val());
+                calculateBillionaires($(this).val());
+                drawBillionaires();
+            })
+
+
+        });
+    </script>
+
+
+    <script src="js/map.js"></script>
+    <script src="js/bar.js"></script>
+
+
+
+</body>
+
+</html>

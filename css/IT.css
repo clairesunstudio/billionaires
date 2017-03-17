@@ -1,0 +1,270 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700|Exo+2:300,600);
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+ 
+/* Solarized Palette - http://ethanschoonover.com/solarized ---------
+  lightgray      : #819090;
+  gray           : #708284;
+  mediumgray     : #536870;
+  darkgray       : #475B62;
+  darkblue       : #0A2933;
+  darkerblue     : #042029;
+  paleryellow    : #FCF4DC;
+  paleyellow     : #EAE3CB;
+  yellow         : #A57706;
+  orange         : #BD3613;
+  red            : #D11C24;
+  pink           : #C61C6F;
+  purple         : #595AB7;
+  blue           : #2176C7;
+  cyan           : #259286;
+  green          : #738A05; */
+
+
+h1, h2, h3, h4, h5, h6, a, p{
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #F9A74B;
+  font-size: 1.75em;
+  padding-top: .3em;
+  padding-bottom: .3em;
+}
+
+a:hover{
+	color: #F7911E;
+}
+
+a{	
+	font-family:Helvetica;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+span{
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 3.5em;
+}
+
+h1{
+	font-family:Helvetica;
+	color:white;
+	font-size: 2em;
+}
+
+h2{
+	color:black;
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+i{	position: absolute;
+	vertical-align: baseline;
+	display: inline;
+	margin-left: -30px;
+	top:84px;
+}
+
+
+
+body{
+	position: relative;
+	background: rgb(120,120,120);
+}
+
+
+.all{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.main {
+	margin-top: 30px;
+	margin-left: 30px;
+	position: absolute; 
+	width:1100px;
+}
+
+.sidebar{
+	position: absolute; 
+	text-align: right;
+	width: 300px;
+	left: 1100px;
+	z-index: 10;
+
+}
+
+.time{
+	position: absolute;
+	text-align: right;
+	right:0px;
+	}
+
+
+.top{
+	z-index: 10;
+}
+
+
+.year{
+	font-family:Helvetica;
+	color:white;
+	font-size: 2.8em;
+	position: absolute;
+	right: 0px;
+	top:310px;
+	width: 260px;
+	z-index: 20;
+	display: inline;
+	text-align: right;
+
+}
+
+.subject{
+	position: absolute;
+	text-align: right;
+	right:0px;
+	top:100px;
+	border-bottom: 1.5px solid white;
+}
+
+
+
+.subject1{
+	position: absolute;
+	text-align: right;
+	right:0px;
+	top:350px;
+}
+
+#container{
+	position: relative; 
+	padding-left: 30px;
+	width: 100%; 
+	height:500px; 
+	z-index: 10;
+}
+
+#graph{
+	position: relative; 
+	margin-top: -250px;
+	width: 100%; 
+	height:350px; 
+	font-family:"Helvetica Neue", Helvetica, sans-serif;
+	font-size: .8em;
+}
+
+
+input{
+/*	-webkit-transform: rotate(-90deg);
+	transform:rotate (-90deg);*/
+	position: absolute;
+	width: 40%;
+	position: absolute; 
+	left:700px;
+	top:640px;
+}
+
+.label{
+	position: absolute;
+	border:1px solid white;
+	border-top:none;
+	width: 40%;
+	height: 6px;
+	position: absolute; 
+	margin-left: 1px;
+	left:700px;
+	top:620px;
+	color: white;
+	font-size: .5em;
+	
+}
+
+#from{
+	position: absolute;
+	left:-40px;
+	top:-40px;
+	opacity: .3;
+}
+
+#to{
+	position: absolute;
+	right:-40px;
+	top:-40px;
+	opacity: .3;
+}
+
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    background: #F9A74B;
+    margin-top: -5px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: grey;
+}
+
+
+a:after {
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    border-width: 0 0 1.5px;
+    border-style: solid;
+    border-bottom-color: white;
+}
+
+.dropdown {
+	position:absolute;
+	right:0px;
+	top:187px;
+	text-align: right;
+/*	border-bottom: 1.5px solid white;*/
+
+}
+
+.list{
+	color: #F7911E;
+	padding-top: 3px;
+	border-top:  1.5px solid black;
+	margin-top: 3px;
+	line-height: 1.2em;
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) { 
+body {
+-webkit-transform: rotate(90deg);
+transform: rotate(90deg);
+width: 100%;
+height: 100%;
+overflow: hidden;
+position: relative; 
+}}
+
+

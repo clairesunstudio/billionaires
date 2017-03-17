@@ -1,0 +1,55 @@
+time,country,latitude,longitude,fillKey,IT-SubCategories ,Rank,Name,Worth,p2,Age,Companies
+1975,United States,38,-97,USA,software,1,Bill Gates,80,   37.3 M,59,Microsoft
+1981,United States,38,-97,USA,finance,13,Michael Bloomberg,35.7,0,72,Bloomberg LP
+2004,United States,38,-97,USA,social media,16,Mark Zuckerberg,33.6,   204.6 M | 0.6%,30,Facebook
+1998,United States,38,-97,USA,search engine,18,Larry Page,28.7,   121.9 M | -0.4%,41,Google
+1994,United States,38,-97,USA,e-commerce,19,Jeff Bezos,28.6,   67.2 M | 0.2%,51,Amazon.com
+1998,United States,38,-97,USA,search engine,20,Sergey Brin,28.2,   119.4 M | -0.4%,41,Google
+1999,China,35,105,USA,e-commerce,31,Jack Ma,22.5,   411.6 M | -1.8%,50,e-commerce
+1980,United States,38,-97,USA,software,36,Steve Ballmer,21,   131.6 M | -0.6%,58,Microsoft
+1976,United States,38,-97,USA,engineering,45,Laurene Powell Jobs & family,17.8,   349.1 M | 2%,51,"Apple, Disney"
+1998,China,35,105,USA,internet media,47,Ma Huateng,16.9,   107.3 M | 0.6%,43,internet media
+1975,United States,38,-97,USA,software,48,Paul Allen,16.9,   7.8 M,62,"Microsoft, investments"
+1999,China,35,105,USA,search engine,53,Robin Li,16.3,   182.8 M | -1.1%,46,internet search
+2001,Japan,36,138,USA,data supplier,57,Masayoshi Son,15.5,   56.9 M | 0.4%,57,"internet, telecom"
+1976,India,20,77,USA,information technology,88,Shiv Nadar,12.6,   284.2 M | 2.3%,69,information technology
+2001,United States,38,-97,USA,search engine,148,Eric Schmidt,8.8,   31.9 M | -0.4%,59,Google
+1997,Japan,36,138,USA,e-commerce,156,Hiroshi Mikitani,8.3,   143.6 M | 1.7%,50,online retailing
+1999,France,46,2,USA,distribution,159,Xavier Niel,8.1,   11.6 M | -0.1%,47,"internet, telecom"
+2004,United States,38,-97,USA,social media,165,Dustin Moskovitz,8,   45.8 M | 0.6%,30,Facebook
+1995,United States,38,-97,USA,e-commerce,170,Pierre Omidyar,7.8,   8.2 M | 0.1%,47,Ebay
+2004,China,35,105,USA,e-commerce,180,Liu Qiangdong,7.3,   136.3 M | 1.9%,40,e-commerce
+2009,United States,38,-97,USA,social media,187,Jan Koum,7.2,   36.7 M | 0.5%,38,WhatsApp
+1987,United States,38,-97,USA,software,202,David Duffield,6.7,   32.5 M | 0.5%,74,business software
+1999,Canada,60,-95,USA,e-commerce,205,Joseph Tsai,6.7,   141.5 M | -2.1%,51,e-commerce
+1997,China,35,105,USA,gaming,212,William Ding,6.5,   41.9 M | 0.6%,43,online games
+1998,China,35,105,USA,internet media,228,Zhang Zhidong,6.1,   37.7 M | 0.6%,43,internet media
+2004,Brazil,-10,-55,USA,social media,316,Eduardo Saverin,4.8,   25.5 M | 0.5%,32,Facebook
+1966,Japan,36,138,USA,gaming,358,Kunio Busujima & family,4.3,   25 M | 0.6%,89,gaming
+2000,Canada,60,-95,USA,online gambling,387,Mark Scheinberg,4.1,0,41,online gambling
+2002,United States,38,-97,USA,social media,394,Reid Hoffman,4.1,   1.3 M,47,LinkedIn
+2005,China,35,105,USA,gaming,395,Shi Yuzhu,4.1,   44.7 M | -1.1%,52,"online games, investments"
+1996,United States,38,-97,USA,e-commerce,415,Jeffrey Skoll,3.9,   4.1 M | 0.1%,50,Ebay
+1988,Germany,51,9,USA,internet service provider,424,Ralph Dommermuth,3.9,   109.9 M | 2.9%,51,internet service provider
+1998,Germany,51,9,USA,search engine,426,Andreas von Bechtolsheim,3.8,   4.1 M | -0.1%,59,Google
+1994,United States,38,-97,USA,search engine,449,David Filo,3.8,   132.2 M | 3.5%,48,Yahoo
+2007,United States,38,-97,USA,social media,487,Brian Acton,3.4,   17.7 M | 0.5%,42,WhatsApp
+1999,United States,38,-97,USA,software,526,Marc Benioff,3.2,   8.5 M | -0.3%,50,business software
+2009,United States,38,-97,USA,transportation,568,Travis Kalanick,3,0,38,Uber
+2004,United States,38,-97,USA,social media,579,Sean Parker,3,   17.8 M | 0.6%,35,Facebook
+1998,Canada,60,-95,USA,search engine,634,David Cheriton,2.8,   1.2 M,63,Google
+1995,United States,38,-97,USA,online media,656,Mark Cuban,2.7,0,56,online media
+1998,United States,38,-97,USA,e-commerce,677,Michael Rubin,2.7,0,42,online retailing
+1998,China,35,105,USA,information technology,691,Li Zhongchu,2.6,   2.5 M | 0.1%,51,information technology
+1979,United States,38,-97,USA,health,697,Judy Faulkner,2.6,0,71,health IT
+2008,United States,38,-97,USA,social media,747,Evan Williams,2.4,   48.2 M | -2%,42,Twitter
+2000,United Kingdom,54,-2,USA,online gambling,757,Denise Coates,2.3,0,47,Online Gambling
+1964,United States,38,-97,USA,online media,767,Barry Diller,2.3,   5.3 M | 0.2%,72,online media
+2008,China,35,105,USA,online media,770,Jia Yueting,2.3,   126.5 M | -5.5%,42,online video
+1992,United States,38,-97,USA,software,784,Thomas Siebel,2.3,0,62,business software
+2000,United States,38,-97,USA,social media,797,Jack Dorsey,2.3,   20.8 M | -0.9%,38,Twitter
+1994,United States,38,-97,USA,search engine,804,Jerry Yang,2.2,   58.7 M | 2.6%,46,Yahoo
+1998,United States,38,-97,USA,social media,837,Peter Thiel,2.2,   1 M,47,Facebook
+1998,United States,38,-97,USA,e-commerce,885,Meg Whitman,2,   2.5 M | 0.1%,58,Ebay
+1994,South Korea,40,127,USA,gaming,920,Kim Jung-Ju,2,   23.7 M | 1.2%,46,online games
+1984,United States,38,-97,USA,hosting,968,Bob Parsons,1.9,0,64,web hosting

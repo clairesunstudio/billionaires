@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Billionaire Map</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/IT.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="js/vendor/datamaps.world.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+    <div class="all">
+        <section class="main">
+            <div id="container">
+            </div>
+            <div id="graph">
+                <div id="chart"></div>
+            </div>
+
+            <div class="label"><span id="from">1960</span><span id="to">2015</span></div>
+            <input id="timeline" type="range" min="1960" max="2015" value="2015"></input>
+        </section>
+
+
+        <section class="sidebar">
+            <div class="subject">
+                <h1>
+  Top 1000<br/> Billionaires<br/>
+</h1>
+            </div>
+            <ul class="dropdown">
+                <li><a class="indus" href="index.html"><i class="fa fa-sort-asc"></i><span>IT</span></a></li>
+            </ul>
+            <div class="time">
+                <h1 class="year"></h1>
+            </div>
+        </section>
+    </div>
+
+
+
+    <script>
+        // print out the year from the scrubber
+        $(function() {
+            $(".year").html("2015");
+            $("#timeline").on('input change', function() {
+                console.log($(this).val());
+                $(".year").html($(this).val());
+                calculateBillionaires($(this).val());
+                drawBillionaires();
+                graphBillionaires();
+            });
+
+            calculateBillionaires();
+            drawBillionaires();
+            graphBillionaires();
+        });
+    </script>
+
+
+    <script src="js/map-IT.js"></script>
+    <script src="js/bar-IT.js"></script>
+
+
+
+</body>
+
+</html>
