@@ -1,13 +1,13 @@
 var bardata = [];
 var country = [];
-    d3.csv('test.csv', function(data) {
+    d3.csv('data/all.csv', function(data) {
         console.log(data);
 
         for (key in data) {
             bardata.push(data[key].radius)
             country.push(data[key].country)
         }
-    console.log(country);    
+    console.log(country);
 
     var margin = { top: 20, right: 30, bottom: 150, left:60 }
 
@@ -129,12 +129,12 @@ var country = [];
             .style({ fill: 'none', stroke: "white"})
         hGuide.selectAll('line')
             .style({ stroke: "white"})
-        hGuide.selectAll("text")  
+        hGuide.selectAll("text")
             .style("text-anchor", "end")
             .attr("dx", "-.8em")
             .attr("dy", ".1em")
             .attr("transform", function(d) {
-                return "rotate(-55)" 
+                return "rotate(-55)"
                 });
     d3.select("body").transition()
     .style("background-color", "rgb(120,120,120)");
